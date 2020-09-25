@@ -1,0 +1,90 @@
+body{
+	font-family: Source Sans Pro;
+	background: #ffd89b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+	margin: 0;
+	background-color: #5685b7;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 30px;
+	color: white;
+	border-radius: 5px 5px 0 0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+input{
+	border: 1px solid white;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	font-size: 18px;
+	/*margin-bottom: 5px;*/
+	width: 100%;
+	box-sizing: border-box;
+	color: #5685b7;
+}
+
+li{
+	/*padding: 7px ;*/
+	font-family: arial;
+	padding-left: 0;
+}
+
+span{
+	height: 30px;
+	background-color: #db4343;
+	width: 0px;
+	padding-top: 10px;
+	opacity: 0;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	color: white;
+	transition: all .5s;
+}
+
+input:focus{
+	border: 1px solid #5685b7;
+}
+
+
+
+li:nth-of-type(even){
+	background-color: white;
+}
+
+li:nth-last-of-type(1){
+	border-radius: 5px;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
+
+#container{
+	width: 20rem;
+	margin: 100px auto;
+	background-color: #f2f2f2;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	border-radius: 5px;
+}
+
+.striked{
+	text-decoration: line-through;
+	color: grey;
+}
+
+.fa-plus{
+	float: right;
+}
+
